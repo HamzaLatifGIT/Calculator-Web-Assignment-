@@ -1,0 +1,53 @@
+.conatiner {
+
+    // max-width: 500px;
+    .calculator {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+
+            .heading {
+                h3 {
+                    color: white;
+
+                }
+            }
+
+            .btn {
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+
+                span {
+                    color: white;
+                    text-transform: uppercase;
+                    font-size: 10px;
+                    font-weight: 500;
+                }
+
+                .toggle_btn {
+                    width: 55px;
+                    height: 21px;
+                    border-radius: 9px;
+                    background-color: rgb(60, 60, 60);
+                    padding: 5px;
+
+                    .toggle {
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background-color: red;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+
+}
