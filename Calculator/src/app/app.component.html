@@ -12,8 +12,26 @@
                 </div>
             </div>
         </div>
-        <div class="display"></div>
+        <div class="display">{{ displayValue || '0' }}</div>
         <div class="keypad">
+            <button (click)="onPress('7')">7</button>
+            <button (click)="onPress('8')">8</button>
+            <button (click)="onPress('9')">9</button>
+            <button (click)="onPress('DEL')" class="del">DEL</button>
+            <button (click)="onPress('4')">4</button>
+            <button (click)="onPress('5')">5</button>
+            <button (click)="onPress('6')">6</button>
+            <button (click)="onPress('+')">+</button>
+            <button (click)="onPress('1')">1</button>
+            <button (click)="onPress('2')">2</button>
+            <button (click)="onPress('3')">3</button>
+            <button (click)="onPress('-')">-</button>
+            <button (click)="onPress('.')">.</button>
+            <button (click)="onPress('0')">0</button>
+            <button (click)="onPress('/')">/</button>
+            <button (click)="onPress('x')">x</button>
+            <button (click)="onPress('RESET')" class="reset">RESET</button>
+            <button (click)="onPress('=')" class="equal" >=</button>
 
         </div>
     </div>
